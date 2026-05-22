@@ -1,0 +1,11 @@
+* text=auto
+*.rb text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.erb text eol=lf
+bin/* text eol=lf
+Gemfile text eol=lf
+Gemfile.lock text eol=lf
+Rakefile text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf

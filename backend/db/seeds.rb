@@ -9,3 +9,22 @@
 #   end
 
 Spree::Core::Engine.load_seed if defined?(Spree::Core)
+
+# Set default store name to obotoronika (use .first because .default is broken during seed)
+store = Spree::Store.first
+if store
+  store.update_columns(
+    name: "obotoronika",
+    seo_title: "obotoronika",
+    meta_description: "obotoronika — your trusted e-commerce platform.",
+  )
+end
+
+# Update default admin credentials
+admin = Spree::AdminUser.first
+if admin
+  admin.email = "admin@obotoronika.com"
+  admin.password = "admin123"
+  admin.password_confirmation = "admin123"
+  admin.save!
+end

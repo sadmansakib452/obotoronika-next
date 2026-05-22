@@ -1,22 +1,20 @@
-# Spree Starter
+# obotoronika Backend
 
-A Rails application pre-configured with [Spree Commerce](https://spreecommerce.org). Use it as a starting point for your own store, or as the backend for a headless storefront.
+A Rails e-commerce backend.
 
 ## Quick Start
 
 The fastest way to get started is with [create-spree-app](https://github.com/spree/spree/packages/create-spree-app):
 
 ```bash
-npx create-spree-app my-store
+npx create-spree-app obotoronika
 ```
 
 This scaffolds a full project with Docker, a Next.js storefront, and this backend — all configured and ready to run.
 
 ## Deploy to Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/spree/spree-starter)
 
-One click deploys the backend (web + worker), PostgreSQL, and Redis.
 
 ## Manual Setup
 
@@ -48,7 +46,7 @@ Default admin credentials are created during `db:seed`.
 Build and run with Docker:
 
 ```bash
-docker build -t my-spree .
+docker build -t obotoronika-backend .
 docker run -p 3000:3000 \
   -e DATABASE_URL=postgres://user:pass@host:5432/spree \
   -e REDIS_URL=redis://localhost:6379/0 \

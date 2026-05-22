@@ -1,6 +1,6 @@
-# my-store
+# obotoronika
 
-A [Spree Commerce](https://spreecommerce.org) project.
+An e-commerce platform.
 
 ## Getting Started
 
@@ -11,15 +11,14 @@ A [Spree Commerce](https://spreecommerce.org) project.
 ### Start the backend
 
 ```bash
-cd my-store
+cd obotoronika
 npx spree dev
 ```
 
 Wait for the services to be healthy, then open:
 
 - **Admin Dashboard:** http://localhost:3000/admin
-  - Email: `spree@example.com`
-  - Password: `spree123`
+  - Check backend logs for default admin credentials, or use `spree user create`.
 - **Store API:** http://localhost:3000/api/v3/store
 
 ### Start the storefront
@@ -84,4 +83,3 @@ This project uses [`@spree/cli`](https://www.npmjs.com/package/@spree/cli) to ma
 
 - [Spree Documentation](https://docs.spreecommerce.org)
 - [Store API Reference](https://docs.spreecommerce.org/api-reference/store)
-- [Spree GitHub](https://github.com/spree/spree)

@@ -40,10 +40,10 @@
     "myAccount": "Moje konto"
   },
   "footer": {
-    "description": "Sklep e-commerce open source oparty na Spree REST API, TypeScript SDK i Next.js. Hostuj samodzielnie. Twoje dane. Zero opłat platformowych.",
+    "description": "obotoronika — zaufana platforma e-commerce.",
     "forkOnGithub": "Forkuj ten sklep na GitHubie",
     "quickstartGuide": "Przewodnik szybkiego startu",
-    "learnMore": "Dowiedz się więcej o Spree Commerce",
+    "learnMore": "Dowiedz się więcej o obotoronika",
     "shop": "Sklep",
     "allProducts": "Wszystkie produkty",
     "categories": "Kategorie",
@@ -53,11 +53,12 @@
     "cart": "Koszyk",
     "policies": "Regulaminy",
     "poweredBy": "Zasilany przez",
-    "copyright": "© {year} {storeName}. Zasilany przez Spree Commerce."
+    "allRightsReserved": "Wszelkie prawa zastrzezone.",
+    "copyright": "© {year} {storeName}. Wszelkie prawa zastrze\u017cone."
   },
   "home": {
-    "welcome": "{storeName} Storefront",
-    "heroDescription": "Gotowy do produkcji, otwartoźródłowy storefront zbudowany z Next.js, React i Spree TypeScript SDK. Hostuj samodzielnie. Twój stack. Brak vendor lock-in. Zero opłat platformowych.",
+    "welcome": "Witamy w obotoronika",
+    "heroDescription": "Produkty wysokiej jakości, bezpieczne zakupy — zaufana platforma e-commerce.",
     "shopNow": "Wszystkie produkty",
     "forkOnGithub": "Forkuj na GitHubie",
     "quickstartGuide": "Przewodnik szybkiego startu",

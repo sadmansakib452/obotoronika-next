@@ -20,7 +20,7 @@ require 'action_cable/engine'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module SpreeStarter
+module Obotoronika
   class Application < Rails::Application
     config.to_prepare do
       # Load application's model / class decorators

@@ -40,10 +40,10 @@
     "myAccount": "My Account"
   },
   "footer": {
-    "description": "Open-source ecommerce powered by Spree REST API, TypeScript SDK, and Next.js. Self-host it. Own your data. Zero platform fees.",
+    "description": "obotoronika - your trusted e-commerce platform. Shop with confidence.",
     "forkOnGithub": "Fork this storefront on GitHub",
     "quickstartGuide": "Quickstart guide",
-    "learnMore": "Learn more about Spree Commerce",
+    "learnMore": "Learn more about obotoronika",
     "shop": "Shop",
     "allProducts": "All Products",
     "categories": "Categories",
@@ -53,11 +53,12 @@
     "cart": "Cart",
     "policies": "Policies",
     "poweredBy": "Powered by",
-    "copyright": "© {year} {storeName}. Powered by Spree Commerce."
+    "allRightsReserved": "All rights reserved.",
+    "copyright": "© {year} {storeName}. All rights reserved."
   },
   "home": {
-    "welcome": "{storeName} Storefront",
-    "heroDescription": "A production-ready, open-source storefront built with Next.js, React, and the Spree TypeScript SDK. Self-host it. Own your stack. No vendor lock-in. Zero platform fees.",
+    "welcome": "Welcome to obotoronika",
+    "heroDescription": "Great products, better prices, happy shopping.",
     "shopNow": "Shop All",
     "forkOnGithub": "Fork on GitHub",
     "quickstartGuide": "Quickstart Guide",

@@ -2,13 +2,10 @@
 [![Next.js 16](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org)
 [![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev)
 
-# Spree Storefront
+# obotoronika Storefront
 
-A production-ready, headless ecommerce storefront for [Spree Commerce](https://spreecommerce.org), built with Next.js 16, React 19, and the [Spree REST API](https://spreecommerce.org/docs/api-reference). Open source (MIT) and free to fork and customize.
+A production-ready, headless ecommerce storefront built with Next.js 16, React 19, and TypeScript.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/spree/storefront)
-
-[Live Demo](https://demo.spreecommerce.org) | [Quickstart Docs](https://spreecommerce.org/docs/developer/storefront/nextjs/quickstart) | [TypeScript SDK](https://www.npmjs.com/package/@spree/sdk)
 
 ## Why This Storefront
 
@@ -24,7 +21,7 @@ A production-ready, headless ecommerce storefront for [Spree Commerce](https://s
 
 ## Performance
 
-The live demo at [demo.spreecommerce.org](https://demo.spreecommerce.org) scores 98/100 on desktop and 88/100 on mobile for Performance on Google's Lighthouse audit, with five language versions served from the same deployment.
+The storefront is built on Next.js 16 App Router with React 19 Server Components and Tailwind CSS 4, delivering fast page loads and excellent Lighthouse scores out of the box.
 
 | Lighthouse metric | Mobile | Desktop |
 |-------------------|--------|---------|
@@ -34,8 +31,6 @@ The live demo at [demo.spreecommerce.org](https://demo.spreecommerce.org) scores
 | SEO | 100 | 100 |
 
 No external performance plugins. No edge-side rendering hacks. The architecture is Next.js 16 App Router with React 19 Server Components, server-side data fetching via `@spree/sdk`, and Tailwind CSS 4.
-
-[Run the audit yourself on PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdemo.spreecommerce.org)
 
 ## Features
 
